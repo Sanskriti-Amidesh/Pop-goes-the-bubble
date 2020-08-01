@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="background" id="bubbles-container">
+        <div id="score-box"><span>Score: </span><span id="score">0</span></div>
+        <div id="timer-box"><span>Time: </span><span id="timer">60</span><span>sec</span></div>
+    </div>
+
+    <div class="background flex-centered" id="game-over">
+        <div class="modal flex-centered" id="gmae-over-modal">
+            <h2>GAME OVER!!!</h2>
+            <p>You have scored <span id="final-score">0</span> points. Play again and pop more Bubbles.</p>
+            <div class="button instruction-button" id="play-again">PLAY AGAIN</div>
+        </div>
+    </div>
+    <audio src="http://www.soundjay.com/button/beep-07.wav"></audio>
+    <script src="game.js"></script>
+
+</body>
+
+</html>
